@@ -3,7 +3,7 @@
 <head>
     <meta charset = "utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
     <title>Treinando PDO</title>
 </head>
@@ -11,7 +11,7 @@
     
 
 <?php
-    require_once("conexao.php");
+    require_once("./config/conexao.php");
 
     if(isset($_POST)&&$_POST){
 
@@ -137,19 +137,6 @@
         
         </table>
     </main>
-
-    <!-- <a href="#bg1">Janela</a>
-    <div id="bg1" class="bg">
-        <div class="box">
-            <a class="excluir" href="index.php?id=<?=$filme["id"]?>">Confirmar Exclusão?</a>
-            <a href="" id="close">X</a>
-        </div>
-    </div> -->
-
-
-
-
-
 
 
 </body>
